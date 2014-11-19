@@ -34,7 +34,7 @@ class YunbiClient
   }
 
   public function post($path, $params=null) {
-    return $this->yunbi_api_req($path, $params);
+    return $this->yunbi_api_req($path, $params, 'POST');
   }
 
   // get tonce
